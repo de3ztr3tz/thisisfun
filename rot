@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Web Page</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e6e6e6;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .content-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hidden-flag {
+            display: none;
+            margin-top: 20px;
+            color: #4caf50;
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>what are you doing here?</h1>
+    </header>
+    <nav>
+        <a href="#">hi there</a>
+        <a href="#">looking for a flag?</a>
+        <a href="#">not here!!!</a>
+    </nav>
+    <section>
+        <div class="content-box">
+            <h2>hi there challenger</h2>
+            <p>is there a flag here?</p>
+            <button onclick="revealFlag()">Click to Reveal Flag</button>
+            <div class="hidden-flag" id="flagSection">no flag here</div>
+        </div>
+    </section>
+    <footer>
+        <p>&Z__fh &Z__eu &Z__fd &Z__du &Z__ee &Z__eu &Z__fd &Z__et &Z__ec &Z__du &Z__eh &Z__fc 
+</p>
+    </footer>
+
+    <script>
+        function revealFlag() {
+            document.getElementById('flagSection').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
